@@ -6,8 +6,12 @@ class LoginPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(
-          children: <Widget>[Image.asset("assets/img/proceso-de-ventas.jpg")]),
+      body: Column(children: <Widget>[
+        const SizedBox(
+          height: 50,
+        ),
+        Image.asset("assets/img/proceso-de-ventas.jpg")
+      ]),
     );
   }
 }
